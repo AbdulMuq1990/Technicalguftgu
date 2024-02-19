@@ -1,4 +1,3 @@
-@Library('my-shared-library') _
 pipeline {
     agent any
     
@@ -8,11 +7,5 @@ pipeline {
                 sh 'git clone https://github.com/AbdulMuq1990/Technicalguftgu.git'
             }
         }
-        
-        stage('Shared library stage') {
-            steps {
-                helloWorld() 
-            }
-        }
-    }
+     }
 }
