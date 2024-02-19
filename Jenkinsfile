@@ -10,7 +10,7 @@ pipeline {
     
         stage('Webhook') {
             steps {
-                sh 'ls -l'
+                sh 'date'
             }
         }
      }
